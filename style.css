@@ -1,0 +1,214 @@
+@charset "utf-8";
+.event, footer div,.reservation,.bname,.food .name,.story .name,.member h2{width: 1200px; margin: 0 auto;}
+header{position: absolute; width: 100%;z-index: 10; }
+
+.brand footer{margin-top: 100px;}
+.brand{background-image: url(images/sub/images/dia.jpg); background-repeat: no-repeat; background-position:center 3070px;}
+.brand header{height: 134px; background-color: #000;}
+.brand .subcenter{width: 1200px; margin: 0 auto; }
+.brand .submain{text-indent: -1999em; background-image: url(images/sub/images/main.jpg); height: 600px;background-position: center top; background-repeat: no-repeat; position: relative;}
+
+.brand #container{background-image: url(images/sub/images/introbg1.jpg); background-position: center 750px;background-repeat:  no-repeat;}
+
+.brand .intro1{margin-top: 100px;}
+.brand .intro2{text-align: right;background-image: url(images/sub/images/introbg2.jpg);background-repeat: no-repeat;}
+
+
+
+.brand .mission{text-align: center; margin-top: 100px;}
+.brand .dia1{background-image: url(images/sub/images/dia1.png); height: 711px; background-repeat: no-repeat;text-indent: -1000em; position: absolute;top: 3000px; left: 200px; width:100%;}
+
+
+.brand .history1{margin-left: 650px; margin-top: 250px;}
+.brand .history3{margin-left: 670px; margin-top: 70px;}
+.brand .history5{margin-left: 670px; margin-top: 100px;}
+
+.gnbmenu .ham{display: none;}
+
+
+.logo{position: absolute; top: 5px; right: 10px;}
+.gnbmenu{position: absolute; top: 35px; left: 50px;}
+.gnbmenu::after{content: ""; display: block; clear: both;}
+.gnbmenu li{float: left; width: 80px; line-height: 2; padding-left: 30px;}
+.gnbmenu li:nth-of-type(3){width: 60px;}
+.gnbmenu li a{text-decoration: none; color: #fff; font-size: 18px;font-family: 'Gothic A1', sans-serif; font-weight: bold;}
+
+
+.mbook1 a, .mbook2 a{color: #000; z-index: 800; text-decoration: none; font-size: 17px; font-weight: bold; width: 200px; display: block; line-height: 3;text-align: center;}
+.mbook1 a:hover{background-color: #000; color: #fff; text-align: center;}
+.mbook2 a:hover{background-color: #000; color: #fff; text-align: center;}
+.mbook1{position: absolute; top: 70px; left: 100px; border-right: 1px solid rgba(94, 95, 108, 0.77); padding-right: 20px;}
+.mbook2{position: absolute; top: 70px; left: 340px;border-right: 1px solid rgba(94, 95, 108, 0.77); padding-right: 30px; }
+.manubar{width: 100%; background-color: rgba(255, 255, 255, 0.9); height: 300px; position: absolute; top: 80px; left: 0px; display: none;}
+.manubar>div{width: 1200px; margin: 0 auto; position: relative;}
+.manubar p img{position: absolute; right: 350px; height: 150px; top: 70px;}
+
+ .hfix{width: 100%;position: fixed; background-color:#000;height: 100px;}
+        .hfix .util{display: block;}
+        .hfix .logo{top: px;}
+        .hfix .gnb{top: 30px;}
+        .hfix .gnb a{color: #fff;}
+
+.hfix .manubar li a{color: #000;}
+.hfix .manubar li a:hover{color: #fff;}
+
+
+
+
+
+.visual{height: 1248px;}
+.visual .bxs li{width: 100%; }
+        .visual .bxs li{display: block; width: 100%; background-position: center top; min-width: 1200px; text-indent: -1000em; height: 1248px;}
+        .visual .bxs .visual01 {background-image: url(images/topbg1.jpg);}
+        .visual .bxs .visual02 {background-image: url(images/topbg2.jpg);}
+        .visual .bxs .visual03 {background-image: url(images/topbg3.jpg);}
+bx-wrapper .bxs .bx-next {
+  
+  background: url('images/controls.png') no-repeat -43px -32px;
+}
+    bx-wrapper .kk .bx-next {
+  
+  background: url('images/controls.png') no-repeat -43px -32px;
+}
+
+
+.more{position: absolute; left: 35px; top: -3px;}
+.more2{position: absolute; left: 127px; top: -3px;}
+.langko{position: absolute; left: 218px; top: 17px;}
+
+.book{position: absolute; top: 800px; left:50%;width: 1200px; margin-left: -600px;}
+
+
+
+.bname{padding: 130px 0 50px 0; text-align: center;}
+.branch h3{text-align: center; font-size: 40px;padding: 70px 0 70px;color: #ffffff; font-weight: bold;}
+.next{position: absolute;top: 62px; left: 1070px;}
+.branch{background-image: url(images/branch/bg.jpg);background-repeat: no-repeat; height: 500px;position: relative;min-width: 1200px;background-position: center top;}
+
+
+
+
+  .branch  .slider { /*슬라이드의 가로사이즈*/
+        width: 60%;
+        margin: 50px auto;
+    }
+      @media screen and(max-width:786px)
+            .slider { /*슬라이드의 가로사이즈*/
+        width: 100%;
+       
+    }
+
+   .branch .slick-slide {/*슬라이드의 간격*/
+      margin: 0px 20px;
+    }
+
+  .branch  .slick-slide img {
+      width: 100%;
+        height: 250px;
+    }
+
+    
+
+
+   .branch .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }/*주인공만 진하게*/
+    
+  .branch  .slick-active {
+      opacity: 1;
+    }
+
+  .branch  .slick-current {
+      opacity: 1;
+    }
+
+.branch  .regular{width: 1100px; margin: 0 auto;}
+.promotion{margin: 150px 0;}
+.promotion p{background-image: url(images/banner1.jpg); background-repeat: no-repeat; background-position: center top; height: 442px;min-width: 1200px; }
+.promotion a{text-indent: -1000em; display: block; height: 442px;}
+
+.event{overflow: hidden;}
+.event li{float: left;}
+
+.food{margin: 70px 0 0; }
+.foodbg{background-image: url(images/foodban.jpg); height: 1404px; background-repeat: no-repeat;text-indent: -1999em;min-width: 1200px;background-position: center top;}
+.food .name{text-align: center; padding: 50px 0 70px 0;}
+
+.reservation{box-sizing: border-box; padding: 670px 0 0 900px;}
+.reservation a{text-indent: -1000em; background-image: url(images/rpager.png);background-repeat: no-repeat;display: block; width: 131px; height: 71px;z-index: 200;}
+
+
+.story .name{padding: 0; text-align: center; padding-top: 70px; padding-bottom: 70px;}
+
+
+.regulars .slider { /*슬라이드의 가로사이즈*/
+        width: 100%;
+        margin: 50px auto;
+    }
+@media screen and(max-width:786px){
+    .regulars .slider { width: 100%;}
+       
+    }
+
+   .regulars  .slick-slide {/*슬라이드의 간격*/
+      margin: 0px 20px;
+    }
+
+   .regulars  .slick-slide img {
+      width: 100%;
+    }
+
+    
+
+
+   .regulars  .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }/*주인공만 진하게*/
+    
+  .regulars   .slick-active {
+      opacity: 1;
+    }
+
+   .regulars  .slick-current {
+      opacity: 1;
+    }
+
+.member h2{ text-align: center; padding-top: 70px; padding-bottom: 70px;}
+.member p{text-align: center;background-color: #5b4f4f}
+
+footer{background-color: #000; height: 350px;}
+footer div{position: relative;}
+
+
+footer .blogo{position: absolute;left: 150px; top: 10px;}
+footer .sns{position: absolute; right: 250px; top: 20px;}
+footer .sns li{float: left;}
+
+footer .call li{float: left; line-height: 2; color: #9b9797;font-size: 15px; padding-left: 10px;}
+.call{position: absolute; margin: 20px 0 20px 60px;}
+.call1{position: absolute;top: 100px; left: 70px;}
+.call2{position: absolute;top: 130px; left: 70px;}
+
+.info{overflow: hidden; position: absolute; top: 125px; right: 140px;}
+.info li{float: left; padding-left: 20px;}
+.info li:nth-of-type(1){padding-left: 0px;}
+.info li:nth-of-type(2) a{color: #fff;}
+.info li a{color: #9b9797; font-size: 15px; text-decoration: none;}
+
+.lang{overflow: hidden; position: absolute; top: 160px; right: 250px;}
+.lang li{float: left; padding-left: 20px;}
+.lang li{float: left; padding-left: 20px;}
+.lang li:nth-of-type(1){padding-left: 0px;}
+.lang li a{color:#fff; font-size: 15px; text-decoration: none;}
+
+.other{overflow: hidden;position: absolute; top: 220px; left: 370px;}
+.other li{float: left; padding-left: 50px;}
+.other li a{color:#fff; font-size: 15px; text-decoration: none;font-weight: bold;}
+
+address{text-align: center; padding-top: 270px; color: #fff;}
+
+
+
+
